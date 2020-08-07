@@ -8,6 +8,7 @@
 ######################
 # Node
 ######################
+/target
 /node/
 node_tmp/
 node_modules/
