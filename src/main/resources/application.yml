@@ -2,7 +2,7 @@ spring:
     application:
         name: inventory-failover-service
     zipkin:
-        base-url: http://localhost:9411/
+        enabled: false
 server:
     port: 8084
 
