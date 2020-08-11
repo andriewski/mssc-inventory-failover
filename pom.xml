@@ -10,13 +10,17 @@
     </parent>
 
     <groupId>guru.sfg.brewery</groupId>
-
     <artifactId>mssc-inventory-failover</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
     <name>mssc-inventory-failover</name>
-
     <description>Inventory Failover Service</description>
+
+    <properties>
+        <!--set this to your docker acct name-->
+        <docker.image.prefix>plambir7</docker.image.prefix>
+        <!--Set to name of project-->
+        <docker.image.name>${project.artifactId}</docker.image.name>
+    </properties>
 
     <dependencies>
         <dependency>
